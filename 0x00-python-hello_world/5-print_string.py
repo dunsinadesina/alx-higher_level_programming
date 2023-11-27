@@ -2,4 +2,4 @@
 str = "Holberton School"
 concat = str * 3
 print(f"{concat}")
-print(f"{str}")
+print("str[:9]")
