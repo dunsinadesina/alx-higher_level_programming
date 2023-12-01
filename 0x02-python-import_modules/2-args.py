@@ -4,10 +4,8 @@ if __name__ == "__main__":
     """print number and arguments"""
     counter = len(sys.argv) - 1
     if counter  == 0:
-        print("0 arguments.")
-    elif counter == 1:
-        print("1 argument: ")
+        print("0 argument{}.".format('s' if counter != 1 else ''))
     else:
-        print("{} arguments: ".format(counter))
-    for i in range(counter):
-        print("{}: {}".format(i + 1, sys.argv[i + 1]))
+        print("{} argument{}:".format(counter, 's' if counter != 1 else ''))
+    for i, arg in enumerate(sys.argv[1:], start=1):
+        print("{}: {}".format(i, arg))
