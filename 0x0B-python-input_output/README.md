@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Pyhton Input/Output
+=======
+PYTHON INPUT/OUTPUT
+>>>>>>> b4f0c9074757961c1ed19174f2baed9ddb1fcbae
 Why Python programming is awesome
 How to open a file
 How to write text in a file
